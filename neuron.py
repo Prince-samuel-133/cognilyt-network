@@ -5,6 +5,7 @@ import math
 
 # --- NODE CONFIGURATION ---
 NODE_ID = "DELL-LATITUDE-PRINCE-01"
+GAGANODE_TOKEN = "afuswvnlbtqcfqme967436aa3002cc4f"
 # We simulate a "Market Price" for CPU Compute (e.g., $0.02 per 1k tasks)
 PRICE_PER_TASK = 0.0002 
 
