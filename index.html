@@ -1,1 +1,28 @@
-with open("index.html", "w", encoding="utf-8") as f:
+
+    <!DOCTYPE html>
+    <html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <style>
+            body { background: #0a0a0a; color: #00ff41; font-family: 'Courier New', monospace; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+            .node-container { border: 2px solid #00ff41; padding: 25px; border-radius: 5px; box-shadow: 0 0 20px #003300; width: 90%; max-width: 400px; }
+            .header { font-size: 1.2em; border-bottom: 1px solid #333; margin-bottom: 15px; padding-bottom: 10px; color: #fff; }
+            .metric { margin: 12px 0; display: flex; justify-content: space-between; }
+            .label { color: #888; text-transform: uppercase; font-size: 0.8em; }
+            .value { color: #00ff41; font-weight: bold; }
+            .earning { color: #ffcc00; font-size: 1.4em; text-align: center; margin-top: 20px; border-top: 1px solid #333; padding-top: 10px; }
+        </style>
+    </head>
+    <body>
+        <div class='node-container'>
+            <div class='header'>COGNILYT COMPUTE NODE 01</div>
+            <div class='metric'><span class='label'>Status</span><span class='value'>MINING_COMPUTE ●</span></div>
+            <div class='metric'><span class='label'>Tasks Done</span><span class='value'>1</span></div>
+            <div class='metric'><span class='label'>Last Task Speed</span><span class='value'>0.2124s</span></div>
+            <div class='metric'><span class='label'>System Clock</span><span class='value'>12:42:15 PM</span></div>
+            <div class='earning'>EST. CREDIT: $0.0002</div>
+        </div>
+    </body>
+    </html>
+    
